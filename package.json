@@ -1,0 +1,27 @@
+{
+  "name": "restjs",
+  "version": "1.0.0",
+  "description": "REST APIs for Node.js! Powered by Express.",
+  "main": "src/lib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RMuskovets/restjs.git"
+  },
+  "keywords": [
+    "rest",
+    "express",
+    "api"
+  ],
+  "author": "Roman Myskovets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RMuskovets/restjs/issues"
+  },
+  "homepage": "https://github.com/RMuskovets/restjs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
