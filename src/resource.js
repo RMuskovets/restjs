@@ -6,7 +6,7 @@ function setFn(m, r, u, cb) {
 	switch (m) {
 		case 'r': routerFn = r.get; break;
 		case 'c': routerFn = r.post; break;
-		case 'u': routerFn = r.update; break;
+		case 'u': routerFn = r.put; break;
 		case 'd': routerFn = r.delete; break;
 	}
 
