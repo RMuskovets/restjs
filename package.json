@@ -1,6 +1,6 @@
 {
   "name": "rapijs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "REST APIs for Node.js! Powered by Express.",
   "main": "src/lib.js",
   "scripts": {
