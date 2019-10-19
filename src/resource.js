@@ -17,11 +17,6 @@ module.exports = {
 	Resource(fns) {
 		const r = Router();
 		const { create, read, update, del } = fns;
-		// r.get('/', read);
-		// r.post('/', create);
-		// r.put('/', update);
-		// r.
-
 		setFn('r', r, [...read.customUrlParams        ], read.cb);
 		setFn('r', r, [...read.customUrlParams, 'id'  ], read.cb);
 
