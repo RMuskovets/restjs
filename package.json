@@ -1,5 +1,5 @@
 {
-  "name": "restjs",
+  "name": "rapijs",
   "version": "1.0.0",
   "description": "REST APIs for Node.js! Powered by Express.",
   "main": "src/lib.js",
