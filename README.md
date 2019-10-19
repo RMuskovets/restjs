@@ -31,11 +31,11 @@ app.listen(8080);
 ### What does this code do?
 1. It loads the `express` and `rapijs` modules.
 2. It creates an instance of Express app.
-3. It creates a `rapijs` resource:
-3.1. Read: no custom URL parameters, callback sends greeting.
-3.2. Create: no custom URL parameters, callback does nothing.
-3.3. Update: no custom URL parameters, callback does nothing.
-3.4. Delete: no custom URL parameters, callback does nothing.
+3. It creates a `rapijs` resource:  
+Read: no custom URL parameters, callback sends greeting.  
+Create: no custom URL parameters, callback does nothing.  
+Update: no custom URL parameters, callback does nothing.  
+Delete: no custom URL parameters, callback does nothing.  
 4. The app uses the JSON `middleware` provided by Express.
 5. The app uses the URL encoding `middleware` too.
 6. The app sets the resource to be on `/` path.
